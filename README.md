@@ -23,9 +23,11 @@ we selected three conformations from the Protein Data Bank (PDB):
 SWISS-MODEL successfully predicted the 3D structure of p53. The model is of high quality, with excellent sequence identity and coverage. However, some regions, particularly after residue 200, might require further refinement due to lower structural similarity confidence.
 
 ![image](https://github.com/user-attachments/assets/3dc10a93-e86b-48ae-ad56-f0fbce4e76c9)
+
 **Figure 1: illustrate the GMQE , QMEAN ,identity, coverage parameters of the predicted protein structure**
 
 ![image](https://github.com/user-attachments/assets/50b9a546-ea85-4920-9816-597c078872c1)
+
 **Figure 2: visualization of the homology modeling predicted protein structure by PyMOL**
 
 ### **Alphafold modeling** 
@@ -33,17 +35,21 @@ The predictions from AlphaFold provide insights into the structural properties o
 
 **Sequence Coverage**
 ![image](https://github.com/user-attachments/assets/60bf8636-a13c-4f09-8f84-e56168494d40)
+
 **Figure 3: The  sequep53 sequence shows good coverage (mostly green to blue) in the central regions, with highernce identity in the middle (\~100 to 300 positions)**
 
 **Predicted IDDT per Position**
 ![image](https://github.com/user-attachments/assets/a4e9d0bb-9940-4f24-9320-7be03c7be0a7)
+
 **Figure 4: The predicted IDDT (Distance Difference Test) per position indicates the confidence of AlphaFold’s predictions for each residue. Higher values (closer to 100\) represent more confident predictions, and lower values indicate less confident predictions.**
 
 **Contact Map for Ranks 1 to 5**
 ![image](https://github.com/user-attachments/assets/11b1a0ac-d156-46e9-b9ce-a37f7e5c46de)
+
 **Figure5: The contact maps display predicted residue-residue contacts in the protein structure for each rank (1 to 5).Red areas represent low proximity (no close contact), while blue indicates regions where residues are likely in close spatial proximity.**
 
 ![image](https://github.com/user-attachments/assets/1124e26f-d0e8-4f56-8a29-97c74bc563dc)
+
 **Figure 6 : visualization of the alphafold predicted protein by PyMOL**
 
 ## **Comparison between the predicted proteins and the ones in the databases:**
@@ -52,11 +58,15 @@ According to our finding in Table(1) , it appears that SWISS-MODEL is most likel
 
 
 TABLE (1): 
-|Database proteins  | RMSD of ALPHAFOLD GENERATED PEOTEIN aligns with  | RMSD of SWISS-MODEL GENERATED PROTEIN aligns with | 
-| **P53 Original structure**  | **14.155** | **19.658** | 
-| **8DC4 structure** (antagonist ) | **0.621** | **2.059** |
-| **6GGB structure**  (agonist) | **0.453** | **2.136** |
-| **2OCJ structure** (apo)  || **0.484** | **2.120** |
+| ALPHAFOLD GENERATED PEOTEIN aligns with ( RMSD) | SWISS-MODEL GENERATED PROTEIN aligns with RMSD | Predicted proteins ➡️ |
+| ----- | ----- | :---- |
+|  |  | **Database protein  ⬇️** |
+| **14.155** | **19.658** | **P53 Original structure**  |
+| **0.621** | **2.059** | **8DC4 structure** (antagonist ) |
+| **0.453** | **2.136** | **6GGB structure**  (agonist) |
+| **0.484** | **2.120** | **2OCJ structure** (apo)  |
+
+
 
 ![image](https://github.com/user-attachments/assets/2c562206-be8d-4fa6-b4b4-3a2447d346cf)
 **Figure 7 : the alignment between the SWISS-MODEL predicted protein ( green)  and the original p53 structure (purple)**
