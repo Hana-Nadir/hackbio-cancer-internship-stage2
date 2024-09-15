@@ -24,11 +24,11 @@ SWISS-MODEL successfully predicted the 3D structure of p53. The model is of high
 
 ![image](https://github.com/user-attachments/assets/3dc10a93-e86b-48ae-ad56-f0fbce4e76c9)
 
-**Figure 1: illustrate the GMQE , QMEAN ,identity, coverage parameters of the predicted protein structure**
+_**Figure 1: illustrate the GMQE , QMEAN ,identity, coverage parameters of the predicted protein structure.**_
 
 ![image](https://github.com/user-attachments/assets/50b9a546-ea85-4920-9816-597c078872c1)
 
-**Figure 2: visualization of the homology modeling predicted protein structure by PyMOL**
+_**Figure 2: visualization of the homology modeling predicted protein structure by PyMOL.**_
 
 ### **Alphafold modeling** 
 The predictions from AlphaFold provide insights into the structural properties of p53, such as sequence coverage, predicted IDDT scores, and contact maps
@@ -36,21 +36,21 @@ The predictions from AlphaFold provide insights into the structural properties o
 **Sequence Coverage**
 ![image](https://github.com/user-attachments/assets/60bf8636-a13c-4f09-8f84-e56168494d40)
 
-**Figure 3: The  sequep53 sequence shows good coverage (mostly green to blue) in the central regions, with highernce identity in the middle (\~100 to 300 positions)**
+_**Figure 3: The  sequep53 sequence shows good coverage (mostly green to blue) in the central regions, with highernce identity in the middle (~100 to 300 positions).**_
 
 **Predicted IDDT per Position**
 ![image](https://github.com/user-attachments/assets/a4e9d0bb-9940-4f24-9320-7be03c7be0a7)
 
-**Figure 4: The predicted IDDT (Distance Difference Test) per position indicates the confidence of AlphaFold’s predictions for each residue. Higher values (closer to 100\) represent more confident predictions, and lower values indicate less confident predictions.**
+_**Figure 4: The predicted IDDT (Distance Difference Test) per position indicates the confidence of AlphaFold’s predictions for each residue. Higher values (closer to 100\) represent more confident predictions, and lower values indicate less confident predictions.**_
 
 **Contact Map for Ranks 1 to 5**
 ![image](https://github.com/user-attachments/assets/11b1a0ac-d156-46e9-b9ce-a37f7e5c46de)
 
-**Figure5: The contact maps display predicted residue-residue contacts in the protein structure for each rank (1 to 5).Red areas represent low proximity (no close contact), while blue indicates regions where residues are likely in close spatial proximity.**
+_**Figure5: The contact maps display predicted residue-residue contacts in the protein structure for each rank (1 to 5).Red areas represent low proximity (no close contact), while blue indicates regions where residues are likely in close spatial proximity.**_
 
 ![image](https://github.com/user-attachments/assets/1124e26f-d0e8-4f56-8a29-97c74bc563dc)
 
-**Figure 6 : visualization of the alphafold predicted protein by PyMOL**
+_**Figure 6 : visualization of the alphafold predicted protein by PyMOL.**_
 
 ## **Comparison between the predicted proteins and the ones in the databases:**
 
@@ -60,7 +60,7 @@ According to our finding in Table(1) , it appears that SWISS-MODEL is most likel
 TABLE (1): 
 |  **Database protein  ⬇️** | RMSD of ALphaFold GENERATED PEOTEIN aligns  | RMSD of SWISS-MODEL GENERATED PROTEIN aligns  |
 | ----- | ----- | :---- |
-|  |  | |
+
 | **P53 Original structure**  | **14.155** | **19.658** |
 | **8DC4 structure** (antagonist)| **0.621** | **2.059** | 
 | **6GGB structure**  (agonist) | **0.453** | **2.136** | 
@@ -70,39 +70,39 @@ TABLE (1):
 
 ![image](https://github.com/user-attachments/assets/2c562206-be8d-4fa6-b4b4-3a2447d346cf)
 
-**Figure 7 : the alignment between the SWISS-MODEL predicted protein ( green)  and the original p53 structure (purple)**
+_**Figure 7 : the alignment between the SWISS-MODEL predicted protein ( green)  and the original p53 structure (purple).**_
 
 ![image](https://github.com/user-attachments/assets/1e4c822f-79a6-4ed6-996c-c8548bc5a464)
 
-**Figure 8 : the alignment between the SWISS-MODEL predicted protein (green) and 8DC4 (purple)**
+_**Figure 8 : the alignment between the SWISS-MODEL predicted protein (green) and 8DC4 (purple).**_
 
 ![image](https://github.com/user-attachments/assets/b1678193-460c-43e2-8b57-905fae76cf00)
 
-**Figure 9: the alignment between the SWISS-MODEL predicted protein (green) and 6GGB (purple)**
+_**Figure 9: the alignment between the SWISS-MODEL predicted protein (green) and 6GGB (purple).**_
 
 ![image](https://github.com/user-attachments/assets/d8c53904-7a0e-4825-8d37-f83b0ea6d8d6)
 
-**Figure 10: the alignment between the SWISS-MODEL predicted protein (green) and 2OCJ (purple)**
+_**Figure 10: the alignment between the SWISS-MODEL predicted protein (green) and 2OCJ (purple).**_
 
  ![image](https://github.com/user-attachments/assets/f32b6c3a-dc29-4d7f-8d67-ed762983ed09)
 
-**Figure 11 : the alignment between the alphafold predicted protein (green) and the original P53 structure (purpel)**
+_**Figure 11 : the alignment between the alphafold predicted protein (green) and the original P53 structure (purpel).**_
 
 ![image](https://github.com/user-attachments/assets/5133910a-f553-40ba-a7a6-ac5c1076797f)
 
-**Figure 12: The alignment between the alphafold predicted protein (green) and 8DC4 (purple)**
+_**Figure 12: The alignment between the alphafold predicted protein (green) and 8DC4 (purple).**_
 
 ![image](https://github.com/user-attachments/assets/e3722906-c259-4302-b7bc-f11453c89d3b)
 
-**Figure 13: alignment between the alphafold predicted protein (green) and 6GGB purple**
+_**Figure 13: alignment between the alphafold predicted protein (green) and 6GGB purple.**_
 
 ![image](https://github.com/user-attachments/assets/52968078-4931-4bd3-8f50-9afda32168a5)
 
-**Figure 14: the alignment between the alphafold predicted protein (green) and 2OCJ purple**
+_**Figure 14: the alignment between the alphafold predicted protein (green) and 2OCJ purple.**_
 
  
 
-## **Conclultion :**
+## **Conclultion:**
 
 SWISS-MODEL and AlphaFold were used  to generate 3D models, further aligned with different conformational states of p53 in addition to its original structure using PyMOL . Overall, AlphaFold tends to offer superior accuracy and coverage compared to SWISS-MODEL, However, both tools are valuable depending on the context and available data.
 
