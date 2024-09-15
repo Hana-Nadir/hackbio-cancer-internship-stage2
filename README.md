@@ -4,19 +4,19 @@
 ## **Introduction :**
 p53, a crucial tumor suppressor protein, plays a pivotal role in maintaining genomic stability and preventing cancer. Often referred to as the "guardian of the genome," p53 regulates cell cycle progression, DNA repair, and apoptosis. Its inactivation or loss can lead to uncontrolled cell growth, genomic instability, and tumor formation. Mutations in the p53 gene are frequently found in human cancers, underscoring its importance in tumor suppression.Mutations in the p53 gene are among the most common genetic alterations found in over 50% of human cancers(6). This is precisely why we chose to focus our analysis on it.
 
-### **Protein structure feature analysis**
+### **Protein structure feature analysis :**
 **P53 Protein main domains:**   Transcription activation (1-44) ,p53 proline-rich domain ,it’s a sequence that lies between amino acids 61 and 94 (out of 393\) .sequence-specific DNA binding domain (center region of the protein) (amino acid residues 100–290 out of 393\) .    homo-oligomerization (residues 319–360; ref.6).  Regulatory domain or C-terminal domain (364-393 residues)  
-**P53 cancer-related mutations:**  
+**P53 cancer-related mutations :**  
 Mutations in p53 often occur within the DNA binding domain, disrupting its ability to bind to DNA and regulate target genes. This can lead to loss of p53 function and contribute to cancer development.
 
-### **The three conformation structures**
+### **The three conformation structures :**
 we selected three conformations from the Protein Data Bank (PDB):
 
 * **8DC4:** Represents the antagonist conformation, with a single engineered mutation at position 131\.  
 * **2OCJ:** Represents the apo conformation, lacking any bound ligands.  
 * **6GGB:** Represents the agonist conformation, with EXQ as the main ligand.
   
-## **The modeling workflow:**
+## **The modeling workflow :**
 
 ### **1- Homology modeling by SWISS MODEL :**
 
@@ -32,24 +32,24 @@ _**Figure 1: illustrate the GMQE , QMEAN ,identity, coverage parameters of the p
 _**Figure 2: visualization of the homology modeling predicted protein structure by PyMOL.**_
 
 
-### **2- AlphaFold modeling:** 
+### **2- AlphaFold modeling :** 
 The predictions from AlphaFold provide insights into the structural properties of p53, such as sequence coverage, predicted IDDT scores, and contact maps
 
-**a- Sequence Coverage:**
+**a- Sequence Coverage :**
 
 ![image](https://github.com/user-attachments/assets/60bf8636-a13c-4f09-8f84-e56168494d40)
 
 _**Figure 3: The  sequep53 sequence shows good coverage (mostly green to blue) in the central regions, with highernce identity in the middle (~100 to 300 positions).**_
 
 
-**b- Predicted IDDT per Position:**
+**b- Predicted IDDT per Position :**
 
 ![image](https://github.com/user-attachments/assets/a4e9d0bb-9940-4f24-9320-7be03c7be0a7)
 
 _**Figure 4: The predicted IDDT (Distance Difference Test) per position indicates the confidence of AlphaFold’s predictions for each residue. Higher values (closer to 100\) represent more confident predictions, and lower values indicate less confident predictions.**_
 
 
-**c- Contact Map for Ranks 1 to 5:**
+**c- Contact Map for Ranks 1 to 5 :**
 
 ![image](https://github.com/user-attachments/assets/11b1a0ac-d156-46e9-b9ce-a37f7e5c46de)
 
@@ -61,7 +61,7 @@ _**Figure5: The contact maps display predicted residue-residue contacts in the p
 _**Figure 6 : visualization of the alphafold predicted protein by PyMOL.**_
 
 
-## **Comparison between the predicted proteins and the ones in the databases:**
+## **Comparison between the predicted proteins and the ones in the databases :**
 
 According to our finding in Table(1) , it appears that SWISS-MODEL is most likely to generate an antagonist conformation ( RMSD \= 2.059) , and Alphafold is likely to generate an agonist conformation (RMSD \= 0.453). Moreover, the predicted alphafold protein is found to show more similarity to the original P53 structure in the databases( RMSD \= 14.155).
 
@@ -118,7 +118,7 @@ _**Figure 14: the alignment between the alphafold predicted protein (green) and 
 
  
 
-## **Conclultion:**
+## **Conclultion :**
 
 SWISS-MODEL and AlphaFold were used  to generate 3D models, further aligned with different conformational states of p53 in addition to its original structure using PyMOL . Overall, AlphaFold tends to offer superior accuracy and coverage compared to SWISS-MODEL, However, both tools are valuable depending on the context and available data.
 
