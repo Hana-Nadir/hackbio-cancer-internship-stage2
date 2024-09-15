@@ -11,6 +11,7 @@ p53, a crucial tumor suppressor protein, plays a pivotal role in maintaining gen
 ### **Protein structure feature analysis :**
 
 **P53 Protein main domains:**   Transcription activation (1-44 ) ,p53 proline-rich domain ,it’s a sequence that lies between amino acids 61 and 94 (out of 393\) .sequence-specific DNA binding domain (center region of the protein) ( 100–290 out of 393\) .    homo-oligomerization (residues 319–360;).  Regulatory domain or C-terminal domain (364-393 residues).
+
 **P53 cancer-related mutations:**  
 Mutations in p53 often occur within the DNA binding domain, disrupting its ability to bind to DNA and regulate target genes. This can lead to loss of p53 function and contribute to cancer development.
 
