@@ -54,7 +54,7 @@ _**Figure 6 : visualization of the alphafold predicted protein by PyMOL.**_
 
 ## **Comparison between the predicted proteins and the ones in the databases:**
 
-According to our finding in Table(1) , it appears that SWISS-MODEL is most likely to generate an antagonist conformation ( RMSD \= 2.059) , and Alphafold is likely to generate an agonist conformation (RMSD \= 0.453). Moreover, the predicted alphafold protein is found to show more similarity to the original P53 structure in the databases RMSD \= 14.155
+According to our finding in Table(1) , it appears that SWISS-MODEL is most likely to generate an antagonist conformation ( RMSD \= 2.059) , and Alphafold is likely to generate an agonist conformation (RMSD \= 0.453). Moreover, the predicted alphafold protein is found to show more similarity to the original P53 structure in the databases( RMSD \= 14.155).
 
 
 TABLE (1): 
@@ -62,9 +62,9 @@ TABLE (1):
 | ----- | ----- | :---- |
 | | | |
 | **P53 Original structure**  | **14.155** | **19.658** |
-| **8DC4 structure** (antagonist)| **0.621** | **2.059** | 
-| **6GGB structure**  (agonist) | **0.453** | **2.136** | 
-|  **2OCJ structure** (apo) | **0.484** | **2.120** | 
+| **8DC4 structure** (Antagonist)| **0.621** | **2.059** | 
+| **6GGB structure**  (Agonist) | **0.453** | **2.136** | 
+|  **2OCJ structure** (Apo) | **0.484** | **2.120** | 
 
 
 
