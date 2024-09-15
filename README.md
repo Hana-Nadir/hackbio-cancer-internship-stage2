@@ -1,4 +1,4 @@
-# **Protein structure modeling, visualaization, and analysis using SWISS-MODEL, AlphaFold, and PyMOL
+# **Protein structure modeling, visualaization, and analysis using SWISS-MODEL, AlphaFold, and PyMOL**
 ## **Authors (@slack): Hanna, BigWils, samar-samir, sarasamer22, DerleenM**
 
 ## **Introduction :**
@@ -58,38 +58,46 @@ According to our finding in Table(1) , it appears that SWISS-MODEL is most likel
 
 
 TABLE (1): 
-| ALPHAFOLD GENERATED PEOTEIN aligns with ( RMSD) | SWISS-MODEL GENERATED PROTEIN aligns with RMSD | Predicted proteins ➡️ |
+|  **Database protein  ⬇️** | RMSD of ALphaFold GENERATED PEOTEIN aligns  | RMSD of SWISS-MODEL GENERATED PROTEIN aligns  |
 | ----- | ----- | :---- |
-|  |  | **Database protein  ⬇️** |
-| **14.155** | **19.658** | **P53 Original structure**  |
-| **0.621** | **2.059** | **8DC4 structure** (antagonist ) |
-| **0.453** | **2.136** | **6GGB structure**  (agonist) |
-| **0.484** | **2.120** | **2OCJ structure** (apo)  |
+|  |  | |
+| **P53 Original structure**  | **14.155** | **19.658** |
+| **8DC4 structure** (antagonist )| **0.621** | **2.059** | 
+| **6GGB structure**  (agonist) | **0.453** | **2.136** | 
+|  **2OCJ structure** (apo) | **0.484** | **2.120** | 
 
 
 
 ![image](https://github.com/user-attachments/assets/2c562206-be8d-4fa6-b4b4-3a2447d346cf)
+
 **Figure 7 : the alignment between the SWISS-MODEL predicted protein ( green)  and the original p53 structure (purple)**
 
 ![image](https://github.com/user-attachments/assets/1e4c822f-79a6-4ed6-996c-c8548bc5a464)
+
 **Figure 8 : the alignment between the SWISS-MODEL predicted protein (green) and 8DC4 (purple)**
 
 ![image](https://github.com/user-attachments/assets/b1678193-460c-43e2-8b57-905fae76cf00)
+
 **Figure 9: the alignment between the SWISS-MODEL predicted protein (green) and 6GGB (purple)**
 
 ![image](https://github.com/user-attachments/assets/d8c53904-7a0e-4825-8d37-f83b0ea6d8d6)
+
 **Figure 10: the alignment between the SWISS-MODEL predicted protein (green) and 2OCJ (purple)**
 
  ![image](https://github.com/user-attachments/assets/f32b6c3a-dc29-4d7f-8d67-ed762983ed09)
+
 **Figure 11 : the alignment between the alphafold predicted protein (green) and the original P53 structure (purpel)**
 
 ![image](https://github.com/user-attachments/assets/5133910a-f553-40ba-a7a6-ac5c1076797f)
+
 **Figure 12: The alignment between the alphafold predicted protein (green) and 8DC4 (purple)**
 
 ![image](https://github.com/user-attachments/assets/e3722906-c259-4302-b7bc-f11453c89d3b)
+
 **Figure 13: alignment between the alphafold predicted protein (green) and 6GGB purple**
 
 ![image](https://github.com/user-attachments/assets/52968078-4931-4bd3-8f50-9afda32168a5)
+
 **Figure 14: the alignment between the alphafold predicted protein (green) and 2OCJ purple**
 
  
