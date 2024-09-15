@@ -1,4 +1,4 @@
-# **protein structure modeling , visulaization and analysis using SWISS MODEL , Alphafold, and PyMOL**
+# **Protein structure modeling , visulaization and analysis using SWISS MODEL , Alphafold, and PyMOL**
 
 # 
 
