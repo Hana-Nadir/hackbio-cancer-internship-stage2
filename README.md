@@ -32,7 +32,7 @@ _**Figure 1: illustrate the GMQE , QMEAN ,identity, coverage parameters of the p
 _**Figure 2: visualization of the homology modeling predicted protein structure by PyMOL.**_
 
 
-### **2- Alphafold modeling** 
+### **2- AlphaFold modeling:** 
 The predictions from AlphaFold provide insights into the structural properties of p53, such as sequence coverage, predicted IDDT scores, and contact maps
 
 **a- Sequence Coverage:**
