@@ -62,7 +62,7 @@ TABLE (1):
 | ----- | ----- | :---- |
 |  |  | |
 | **P53 Original structure**  | **14.155** | **19.658** |
-| **8DC4 structure** (antagonist )| **0.621** | **2.059** | 
+| **8DC4 structure** (antagonist)| **0.621** | **2.059** | 
 | **6GGB structure**  (agonist) | **0.453** | **2.136** | 
 |  **2OCJ structure** (apo) | **0.484** | **2.120** | 
 
