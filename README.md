@@ -4,7 +4,7 @@
 ## **Introduction :**
 p53, a crucial tumor suppressor protein, plays a pivotal role in maintaining genomic stability and preventing cancer. Often referred to as the "guardian of the genome," p53 regulates cell cycle progression, DNA repair, and apoptosis. Its inactivation or loss can lead to uncontrolled cell growth, genomic instability, and tumor formation. Mutations in the p53 gene are frequently found in human cancers, underscoring its importance in tumor suppression.Mutations in the p53 gene are among the most common genetic alterations found in over 50% of human cancers(6). This is precisely why we chose to focus our analysis on it.
 
-### **protein structure feature analysis**
+### **Protein structure feature analysis**
 **P53 Protein main domains:**   Transcription activation (1-44) ,p53 proline-rich domain ,it’s a sequence that lies between amino acids 61 and 94 (out of 393\) .sequence-specific DNA binding domain (center region of the protein) (amino acid residues 100–290 out of 393\) .    homo-oligomerization (residues 319–360; ref.6).  Regulatory domain or C-terminal domain (364-393 residues)  
 **P53 cancer-related mutations:**  
 Mutations in p53 often occur within the DNA binding domain, disrupting its ability to bind to DNA and regulate target genes. This can lead to loss of p53 function and contribute to cancer development.
@@ -26,31 +26,40 @@ SWISS-MODEL successfully predicted the 3D structure of p53. The model is of high
 
 _**Figure 1: illustrate the GMQE , QMEAN ,identity, coverage parameters of the predicted protein structure.**_
 
+
 ![image](https://github.com/user-attachments/assets/50b9a546-ea85-4920-9816-597c078872c1)
 
 _**Figure 2: visualization of the homology modeling predicted protein structure by PyMOL.**_
+
 
 ### **Alphafold modeling** 
 The predictions from AlphaFold provide insights into the structural properties of p53, such as sequence coverage, predicted IDDT scores, and contact maps
 
 **Sequence Coverage**
+
 ![image](https://github.com/user-attachments/assets/60bf8636-a13c-4f09-8f84-e56168494d40)
 
 _**Figure 3: The  sequep53 sequence shows good coverage (mostly green to blue) in the central regions, with highernce identity in the middle (~100 to 300 positions).**_
 
+
 **Predicted IDDT per Position**
+
 ![image](https://github.com/user-attachments/assets/a4e9d0bb-9940-4f24-9320-7be03c7be0a7)
 
 _**Figure 4: The predicted IDDT (Distance Difference Test) per position indicates the confidence of AlphaFold’s predictions for each residue. Higher values (closer to 100\) represent more confident predictions, and lower values indicate less confident predictions.**_
 
+
 **Contact Map for Ranks 1 to 5**
+
 ![image](https://github.com/user-attachments/assets/11b1a0ac-d156-46e9-b9ce-a37f7e5c46de)
 
 _**Figure5: The contact maps display predicted residue-residue contacts in the protein structure for each rank (1 to 5).Red areas represent low proximity (no close contact), while blue indicates regions where residues are likely in close spatial proximity.**_
 
+
 ![image](https://github.com/user-attachments/assets/1124e26f-d0e8-4f56-8a29-97c74bc563dc)
 
 _**Figure 6 : visualization of the alphafold predicted protein by PyMOL.**_
+
 
 ## **Comparison between the predicted proteins and the ones in the databases:**
 
@@ -72,29 +81,36 @@ TABLE (1):
 
 _**Figure 7 : the alignment between the SWISS-MODEL predicted protein ( green)  and the original p53 structure (purple).**_
 
+
 ![image](https://github.com/user-attachments/assets/1e4c822f-79a6-4ed6-996c-c8548bc5a464)
 
 _**Figure 8 : the alignment between the SWISS-MODEL predicted protein (green) and 8DC4 (purple).**_
+
 
 ![image](https://github.com/user-attachments/assets/b1678193-460c-43e2-8b57-905fae76cf00)
 
 _**Figure 9: the alignment between the SWISS-MODEL predicted protein (green) and 6GGB (purple).**_
 
+
 ![image](https://github.com/user-attachments/assets/d8c53904-7a0e-4825-8d37-f83b0ea6d8d6)
 
 _**Figure 10: the alignment between the SWISS-MODEL predicted protein (green) and 2OCJ (purple).**_
+
 
  ![image](https://github.com/user-attachments/assets/f32b6c3a-dc29-4d7f-8d67-ed762983ed09)
 
 _**Figure 11 : the alignment between the alphafold predicted protein (green) and the original P53 structure (purpel).**_
 
+
 ![image](https://github.com/user-attachments/assets/5133910a-f553-40ba-a7a6-ac5c1076797f)
 
 _**Figure 12: The alignment between the alphafold predicted protein (green) and 8DC4 (purple).**_
 
+
 ![image](https://github.com/user-attachments/assets/e3722906-c259-4302-b7bc-f11453c89d3b)
 
 _**Figure 13: alignment between the alphafold predicted protein (green) and 6GGB purple.**_
+
 
 ![image](https://github.com/user-attachments/assets/52968078-4931-4bd3-8f50-9afda32168a5)
 
