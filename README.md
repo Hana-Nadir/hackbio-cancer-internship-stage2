@@ -18,7 +18,7 @@ we selected three conformations from the Protein Data Bank (PDB):
   
 ## **The modeling workflow:**
 
-### **Homology modeling by SWISS MODEL :**
+### **1- Homology modeling by SWISS MODEL :**
 
 SWISS-MODEL successfully predicted the 3D structure of p53. The model is of high quality, with excellent sequence identity and coverage. However, some regions, particularly after residue 200, might require further refinement due to lower structural similarity confidence.
 
@@ -32,24 +32,24 @@ _**Figure 1: illustrate the GMQE , QMEAN ,identity, coverage parameters of the p
 _**Figure 2: visualization of the homology modeling predicted protein structure by PyMOL.**_
 
 
-### **Alphafold modeling** 
+### **2- Alphafold modeling** 
 The predictions from AlphaFold provide insights into the structural properties of p53, such as sequence coverage, predicted IDDT scores, and contact maps
 
-**Sequence Coverage**
+**a- Sequence Coverage:**
 
 ![image](https://github.com/user-attachments/assets/60bf8636-a13c-4f09-8f84-e56168494d40)
 
 _**Figure 3: The  sequep53 sequence shows good coverage (mostly green to blue) in the central regions, with highernce identity in the middle (~100 to 300 positions).**_
 
 
-**Predicted IDDT per Position**
+**b- Predicted IDDT per Position:**
 
 ![image](https://github.com/user-attachments/assets/a4e9d0bb-9940-4f24-9320-7be03c7be0a7)
 
 _**Figure 4: The predicted IDDT (Distance Difference Test) per position indicates the confidence of AlphaFold’s predictions for each residue. Higher values (closer to 100\) represent more confident predictions, and lower values indicate less confident predictions.**_
 
 
-**Contact Map for Ranks 1 to 5**
+**c- Contact Map for Ranks 1 to 5:**
 
 ![image](https://github.com/user-attachments/assets/11b1a0ac-d156-46e9-b9ce-a37f7e5c46de)
 
