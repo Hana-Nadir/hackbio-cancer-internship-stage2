@@ -25,7 +25,7 @@ A library of 51 phytochemicals from turmeric was curated. All of which were docu
 
 ![image](https://github.com/user-attachments/assets/35e37458-7ccf-440e-821f-0af229ab4d5e)
 
-**Figure 1 : Visulization of the prepared protein.** 
+_Figure 1 : Visulization of the prepared protein._ 
 
 
 
@@ -53,7 +53,7 @@ Table 1: active side details
 | score | 51.58 |
 | Receptor  | 1R58 |
 | Exesustiveness  | 8 |
-| Grid box center  | 21.3291, 28.4444,16.0062 |
+| Grid box center (X,Y,Z)  | 21.3291, 28.4444,16.0062 |
 | Grid box dimenstions (X,Y,Z) | 28.6023 , 31.9035 , 28.0609 |
 
 
@@ -61,7 +61,7 @@ Table 1: active side details
 
 ![image](https://github.com/user-attachments/assets/746416b1-5ed4-460b-9134-73e084aee0db)
 
- **Figure 2: Crystal Structure of MetAP2 complexed with A357300 showing the most active pocket**
+ _Figure 2: Crystal Structure of MetAP2 complexed with A357300 showing the most active pocket._
 
 
 
@@ -74,48 +74,50 @@ The binding modes of the top compounds with the highest affinities were visualiz
 
 ![image](https://github.com/user-attachments/assets/534424a1-d5a4-4ab8-ada0-8c35695f36c3)
 
-**Figure 3: Curcumol model 1(deepblue) on the protein binding site (AA residue on green)**
+_Figure 3: Curcumol model 1(deepblue) on the protein binding site (AA residue on green)._
 
 
 **2- Cyclocurcumin Model 1:**
 
 ![image](https://github.com/user-attachments/assets/997beedf-9108-4936-b1c9-679d55b474f1)
 
-**Figure 4: Cyclocurcumin model 1 ( deepblue ) on the binding site.**
+_Figure 4: Cyclocurcumin model 1 ( deepblue ) on the binding site._
 
 
 **3- Cyclocurcumin Model 2:**
 
 ![image](https://github.com/user-attachments/assets/bd03410d-7b55-4e76-afaf-a2d656f715fb)
 
-**Figure 5: Cyclocurcumin model 2 ( deepblue ) on the binding site .**
+_Figure 5: Cyclocurcumin model 2 ( deepblue ) on the binding site ._
 
 
 **4- Cyclocurcumin Model 3:**
 
 ![image](https://github.com/user-attachments/assets/03c0ff50-aaa6-4cb6-b712-dc35ac35e91c)
 
-**Figure 6: Cyclocurcumin model 3 (deepblue) on the binding site .**
+_Figure 6: Cyclocurcumin model 3 (deepblue) on the binding site ._
 
 
 **5- Demethoxycurcumin Model 1:**
 
 ![image](https://github.com/user-attachments/assets/8228a42e-d9db-4899-b895-623f792fa7c1)
 
- **Figure 7: Demethoxycurcumin model 1( deepblue ) on the binding site.** 
+ _Figure 7: Demethoxycurcumin model 1( deepblue ) on the binding site._
 
 
 **6- Tetrahydrocurcumin Model 1:**
 
 ![image](https://github.com/user-attachments/assets/e5806c23-6f77-4279-8e79-bac2399800e2)
 
-**Figure 8: Tetrahydrocurcumin model 1 (deepblue) on the binding site .**
+_Figure 8: Tetrahydrocurcumin model 1 (deepblue) on the binding site ._
 
 
 
 ## Conculations:
 
 This study identified several turmeric-derived compounds, particularly cyclocurcumin and curcumol, as having strong binding affinity for MetAP2, indicative of good pharmacological candidates against MetAP2-related diseases. This study not only provided potential lead compounds for drug development but also established a reusable pipeline for protein-ligand docking analysis that could be applied in future therapeutic research.
+
+
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
