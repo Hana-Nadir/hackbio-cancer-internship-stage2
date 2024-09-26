@@ -1,5 +1,7 @@
 # Virtual screening by Molecular docking  of anti\_cancer activity within turmeric phytochemicals compounds that target MetAP2 on patients with liver cancer  
 
+## Authors (@slack) : Hanna, BigWils, Samar_samir, Sarasamer22, DerleenM
+
 ## Introduction:
 
 Liver cancer, particularly hepatocellular carcinoma (HCC), poses a significant global health burden. It is the third leading cause of cancer-related deaths worldwide This aggressive malignancy demands the exploration of novel therapeutic strategies. Here, we focus on the interplay between Methionine aminopeptidase 2 (MetAP2) and turmeric’s phytochemicals compounds in the context of HCC.
@@ -18,11 +20,11 @@ A library of 51 phytochemicals from turmeric was curated. All of which were docu
 *  Cleaning of the protein structure was done using PyMOL by removing water molecules together with bound ligands/hetero atoms. Hydrogens were thereafter added to the structure.   
 * Charges were finally added to the protein with the help of tools available in PyMOL to ensure proper molecular interactions. 
 
-**![][image1]**
+![image](https://github.com/user-attachments/assets/35e37458-7ccf-440e-821f-0af229ab4d5e)
 
 **Figure 1 : Visulization of the prepared protein.** 
 
-## 
+
 
 ## Molecular Docking of Turmeric Compounds against MetAP2:
 
@@ -30,12 +32,12 @@ A library of 51 phytochemicals from turmeric was curated. All of which were docu
 * The energy minimization of the 51 curated turmeric compounds was done using PyRx , after which structures of protein and ligand were converted to the pdbqt format for docking.   
 * Simulations of docking were conducted with the aid of a grid box laid over the active site, creating multiple binding modes for each ligand.  
 *  The binding affinity analysis revealed six turmeric compounds with the top binding affinities to MetAP2:   
-  * Cyclocurcumin Model 1 (-8.9 kcal/mol).   
-  * Curcumol Model 1 (-8.6 kcal/mol).  
-  * Cyclocurcumin Model 2 (-8.6 kcal/mol).  
-  * Cyclocurcumin Model 3 (-8.5 kcal/mol).  
-  *  Tetrahydrocurcumin Model 1 (-8.3 kcal/mol).  
-  *  Demethoxycurcumin Model 1 (-8.1 kcal/mol).
+         * Cyclocurcumin Model 1 (-8.9 kcal/mol).   
+         * Curcumol Model 1 (-8.6 kcal/mol).  
+         * Cyclocurcumin Model 2 (-8.6 kcal/mol).  
+         * Cyclocurcumin Model 3 (-8.5 kcal/mol).  
+         *  Tetrahydrocurcumin Model 1 (-8.3 kcal/mol).  
+         *  Demethoxycurcumin Model 1 (-8.1 kcal/mol).
 
 Table 1: active side details 
 
@@ -49,41 +51,51 @@ Table 1: active side details
 | Grid box center  | 21.3291, 28.4444,16.0062 |
 | Grid box dimenstions (X,Y,Z) | 28.6023 , 31.9035 , 28.0609 |
 
-![][image2]
 
-## **Crystal Structure of MetAP2 complexed with A357300 showing the most active pocket**
 
-## 
+![image](https://github.com/user-attachments/assets/746416b1-5ed4-460b-9134-73e084aee0db)
 
-## 
+ **Figure 2: Crystal Structure of MetAP2 complexed with A357300 showing the most active pocket**
 
-## 
+
 
 ## Visualizations of the six models with the highest binding affinity:
 
 The binding modes of the top compounds with the highest affinities were visualized using Pymol to gain insights into their interactions within the active site of MetAP2
 
-**![][image3]Figure 2: Curcumol model 1(deepblue) on the protein binding site (AA residue on green).**
 
-**![][image4]**
 
-**Figure 3 : Cyclocurcumin model 1 ( deepblue ) on the binding site.**
+![image](https://github.com/user-attachments/assets/534424a1-d5a4-4ab8-ada0-8c35695f36c3)
 
-**![][image5]**
+**Figure 3: Curcumol model 1(deepblue) on the protein binding site (AA residue on green)**
 
-**Figure 4 : Cyclocurcumin model 2 ( deepblue ) on the binding site .**
 
-**![][image6]**
 
-**Figure 5 : Cyclocurcumin model 3 (deepblue) on the binding site .**
+![image](https://github.com/user-attachments/assets/997beedf-9108-4936-b1c9-679d55b474f1)
 
-**![][image7]**
+**Figure 4: Cyclocurcumin model 1 ( deepblue ) on the binding site.**
 
- **Figure 6: Demethoxycurcumin model 1( deepblue ) on the binding site.** 
 
-**![][image8]**
+![image](https://github.com/user-attachments/assets/bd03410d-7b55-4e76-afaf-a2d656f715fb)
 
-**Figure 7 : Tetrahydrocurcumin model 1 (deepblue) on the binding site .**
+**Figure 5: Cyclocurcumin model 2 ( deepblue ) on the binding site .**
+
+
+
+![image](https://github.com/user-attachments/assets/03c0ff50-aaa6-4cb6-b712-dc35ac35e91c)
+
+**Figure 6: Cyclocurcumin model 3 (deepblue) on the binding site .**
+
+
+![image](https://github.com/user-attachments/assets/8228a42e-d9db-4899-b895-623f792fa7c1)
+
+ **Figure 7: Demethoxycurcumin model 1( deepblue ) on the binding site.** 
+
+
+![image](https://github.com/user-attachments/assets/e5806c23-6f77-4279-8e79-bac2399800e2)
+
+**Figure 8: Tetrahydrocurcumin model 1 (deepblue) on the binding site .**
+
 
 
 ## Conculations:
