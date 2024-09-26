@@ -20,9 +20,14 @@ A library of 51 phytochemicals from turmeric was curated. All of which were docu
 *  Cleaning of the protein structure was done using PyMOL by removing water molecules together with bound ligands/hetero atoms. Hydrogens were thereafter added to the structure.   
 * Charges were finally added to the protein with the help of tools available in PyMOL to ensure proper molecular interactions. 
 
+
+
+
 ![image](https://github.com/user-attachments/assets/35e37458-7ccf-440e-821f-0af229ab4d5e)
 
 **Figure 1 : Visulization of the prepared protein.** 
+
+
 
 
 
@@ -53,9 +58,11 @@ Table 1: active side details
 
 
 
+
 ![image](https://github.com/user-attachments/assets/746416b1-5ed4-460b-9134-73e084aee0db)
 
  **Figure 2: Crystal Structure of MetAP2 complexed with A357300 showing the most active pocket**
+
 
 
 
@@ -63,34 +70,42 @@ Table 1: active side details
 
 The binding modes of the top compounds with the highest affinities were visualized using Pymol to gain insights into their interactions within the active site of MetAP2
 
-
+**1- Curcumol Model 1:**
 
 ![image](https://github.com/user-attachments/assets/534424a1-d5a4-4ab8-ada0-8c35695f36c3)
 
 **Figure 3: Curcumol model 1(deepblue) on the protein binding site (AA residue on green)**
 
 
+**2- Cyclocurcumin Model 1:**
 
 ![image](https://github.com/user-attachments/assets/997beedf-9108-4936-b1c9-679d55b474f1)
 
 **Figure 4: Cyclocurcumin model 1 ( deepblue ) on the binding site.**
 
 
+**3- Cyclocurcumin Model 2:**
+
 ![image](https://github.com/user-attachments/assets/bd03410d-7b55-4e76-afaf-a2d656f715fb)
 
 **Figure 5: Cyclocurcumin model 2 ( deepblue ) on the binding site .**
 
 
+**4- Cyclocurcumin Model 3:**
 
 ![image](https://github.com/user-attachments/assets/03c0ff50-aaa6-4cb6-b712-dc35ac35e91c)
 
 **Figure 6: Cyclocurcumin model 3 (deepblue) on the binding site .**
 
 
+**5- Demethoxycurcumin Model 1:**
+
 ![image](https://github.com/user-attachments/assets/8228a42e-d9db-4899-b895-623f792fa7c1)
 
  **Figure 7: Demethoxycurcumin model 1( deepblue ) on the binding site.** 
 
+
+**6- Tetrahydrocurcumin Model 1:**
 
 ![image](https://github.com/user-attachments/assets/e5806c23-6f77-4279-8e79-bac2399800e2)
 
